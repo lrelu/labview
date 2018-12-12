@@ -10,9 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Sequence.vi" Type="VI" URL="../Sequence.vi"/>
-		<Item Name="State.ctl" Type="VI" URL="../State.ctl"/>
-		<Item Name="StateMachine.vi" Type="VI" URL="../StateMachine.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="State.ctl" Type="VI" URL="../ctl/State.ctl"/>
 		<Item Name="의존성" Type="Dependencies"/>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
