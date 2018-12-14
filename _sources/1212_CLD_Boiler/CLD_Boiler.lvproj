@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ref" Type="Folder" URL="../ref">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Boiler Main - UI.vi" Type="VI" URL="../Boiler Main - UI.vi"/>
 		<Item Name="의존성" Type="Dependencies"/>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
